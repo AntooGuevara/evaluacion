@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Diagrama de Flujo - Gestión y Venta de Perfumes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f0f0;
+      padding: 20px;
+    }
+    .box {
+      border: 2px solid #444;
+      border-radius: 8px;
+      padding: 10px 15px;
+      margin: 10px auto;
+      width: 350px;
+      text-align: center;
+      background: #fff;
+    }
+    .arrow {
+      text-align: center;
+      font-size: 24px;
+      margin: -5px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">Inicio</div>
+  <div class="arrow">↓</div>
+
+  <div class="box">Administrador: Ingresa a base de datos MySQL</div>
+  <div class="arrow">↓</div>
+
+  <div class="box">Base de datos: DB de venta</div>
+  <div class="arrow">↓</div>
+
+  <div class="box">Administrador: Accede a tabla de inicio de sesión</div>
+  <div class="arrow">↓</div>
+
+  <div class="box">Administrador: Consulta ingresos y perfumes enviados</div>
+  <div class="arrow">↓</div>
+
+  <div class="box">DB de venta → Conecta con DB de inventario</div>
+  <div class="arrow">↓</div>
+
+  <div class="box">DB de inventario: Perfumes en stock (Excel)</div>
+  <div class="arrow">↓</div>
+
+  <div class="box">Organizador: Accede a DB de inventario</div>
+  <div class="arrow">↓</div>
+
+  <div class="box">Comprador/Cliente: Ingresa a la página web</div>
+  <div class="arrow">↓</div>
+
+  <div class="box">Cliente: Realiza pedido</div>
+  <div class="arrow">↓</div>
+
+  <div class="box">Cliente: Realiza pago</div>
+  <div class="arrow">↓</div>
+
+  <div class="box">Sistema: Envío y entrega del pedido</div>
+  <div class="arrow">↓</div>
+
+  <div class="box">Fin</div>
+
+</body>
+</html>
